@@ -66,7 +66,7 @@ export const deleteItem = (type, id) => {
   //then splice an element off the first array using the index we've just discovered
 
   if (index !== -1) {
-    data.allItems[type].splice(id, 1);
+    data.allItems[type].splice(index, 1);
   }
 };
 
